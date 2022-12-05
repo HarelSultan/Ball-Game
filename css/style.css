@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+    color: white;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.cell img {
+    width: 25px;
+    height: auto;
+}
+
+.floor {
+    background-color: gray;
+}
+
+.wall {
+    background-color: brown;
+}
+
+
+.restart-btn {
+    border: solid 3px wheat;
+    background-color: brown;
+    color: white;
+    margin-bottom: 5px;
+    border-radius: 4px;
+}
+
+.winner-modal {
+    background-color: lightseagreen;
+    width: 300px;
+    height: 100px;
+    position: absolute;
+    top: 300px;
+    left: 118px;
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.hidden {
+    display: none;
+}
